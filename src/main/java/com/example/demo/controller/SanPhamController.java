@@ -69,7 +69,7 @@ public class SanPhamController extends HttpServlet {
         sanPhamRequest.setTen(ten);
         sanPhamRequest.setGia(gia);
 
-        if(id != null){
+        if(id.isEmpty()){
             HashMap<String, String> errors = sanPhamService.add(sanPhamRequest);
             request.setAttribute("errors", errors);
             List<SanPhamRespone> sanPhamRespones = sanPhamService.getAll();
