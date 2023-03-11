@@ -520,7 +520,7 @@ chú ý bạn cần import <%@ taglib prefix="c" uri="http://java.sun.com/jsp/js
 > san-pham.jsp
 
 lưu ý trong input phải có tên của  request trùng với thuộc tính trong SanPhamRequest 
- <input type="text" name="ten" />
+ // <input type="text" name="ten" />
 
 ```
 
