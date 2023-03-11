@@ -11,9 +11,9 @@
    </theader>
   <tbody>
   <td>
-   <a href="#WhatisHibernate">1: Hibernate là gì?</a> </br>
-   <a href="#WhatisJSP">2: JSP là gì?</a> </br>
-   <a href="#WhatisServlet">3:Triển khai CRUD Hibernate với JSP, Servlet?</a>
+   <p> <a href="#WhatisHibernate">1: Hibernate là gì?</a> </p>
+   <p><a href="#WhatisJSP">2: JSP là gì?</a> </p>
+   <p><a href="#WhatisServlet">3:Triển khai CRUD Hibernate với JSP, Servlet?</a></p>
    </td>
    </tbody>
    </table>
@@ -361,7 +361,7 @@ chú ý bạn cần import <%@ taglib prefix="c" uri="http://java.sun.com/jsp/js
 
 ```
 
-<!-- <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+ <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
@@ -393,8 +393,7 @@ chú ý bạn cần import <%@ taglib prefix="c" uri="http://java.sun.com/jsp/js
     </tbody>
 </table>
 </body>
-</html> -->
-
+</html>
 ```
 
 ## Thêm mới sản phẩm
