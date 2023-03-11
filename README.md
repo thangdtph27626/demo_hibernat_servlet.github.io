@@ -356,6 +356,9 @@ public class SanPhamController extends HttpServlet {
 
 > san-pham.jsp
 
+chú ý bạn cần import <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> trên đầu file 
+ <c:forEach items="${sanPhamRespones}" var="sanPham"> item: thông tin lặp , var: Tên của biến để hiển thị trạng thái vòng lặp	
+
 ```
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -491,6 +494,8 @@ public class SanPhamController extends HttpServlet {
             this.addOrUpdateLopHoc(request, response);
         }
     }
+    // url: http://localhost8080/sanPham/add-update?id= &ten=ao1&gia=12
+    //?id= &ten=ao1&gia=12 là các request parameter: id, ten, gia
      private void addOrUpdateLopHoc(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String ten = request.getParameter("ten");
         String gia = request.getParameter("gia");
@@ -513,6 +518,9 @@ public class SanPhamController extends HttpServlet {
 
 
 > san-pham.jsp
+
+lưu ý trong input phải có tên của  request trùng với thuộc tính trong SanPhamRequest 
+ <input type="text" name="ten" />
 
 ```
 
