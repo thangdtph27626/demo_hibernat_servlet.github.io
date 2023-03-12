@@ -1,6 +1,5 @@
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
- <h2 align="center"CRUD Hibernate với JSP, Servlet</h2>
+ <h2 align="center">CRUD Hibernate với JSP, Servlet</h2>
 </p>
 <div align="center">
  <table >
@@ -356,8 +355,8 @@ public class SanPhamController extends HttpServlet {
 
 > san-pham.jsp
 
-chú ý bạn cần import <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> trên đầu file 
- <c:forEach items="${sanPhamRespones}" var="sanPham"> item: thông tin lặp , var: Tên của biến để hiển thị trạng thái vòng lặp	
+// chú ý bạn cần import <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> trên đầu file 
+// <c:forEach items="${sanPhamRespones}" var="sanPham"> item: thông tin lặp , var: Tên của biến để hiển thị trạng thái vòng lặp	
 
 ![image](https://user-images.githubusercontent.com/109157942/224486688-a56e7c47-2dca-4a66-bd1b-689eff694a48.png)
 
